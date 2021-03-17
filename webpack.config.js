@@ -6,7 +6,7 @@ module.exports = {
     entry: './src/index.ts',
     output: {
         path: path.resolve(__dirname, 'dist'),
-        filename: 'hee-animation.js',
+        filename: 'hee-data-structure.js',
         // library: 'heeAnimation',
         libraryTarget: 'umd'
     },
