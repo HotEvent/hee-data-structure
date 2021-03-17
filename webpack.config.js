@@ -24,11 +24,11 @@ module.exports = {
         new CleanWebpackPlugin()
     ],
     externals: {
-        rxjs: {
-            commonjs: 'rxjs',
-            commonjs2: 'rxjs',
-            amd: 'rxjs',
-            root: 'Rx'
-        }
+        // rxjs: {
+        //     commonjs: 'rxjs',
+        //     commonjs2: 'rxjs',
+        //     amd: 'rxjs',
+        //     root: 'Rx'
+        // }
     }
 };
