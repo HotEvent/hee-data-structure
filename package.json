@@ -1,0 +1,40 @@
+{
+  "name": "hee-data-structure",
+  "version": "0.0.1",
+  "description": "",
+  "main": "dist/hee-animation.js",
+  "typings": "dist/index.d.ts",
+  "scripts": {
+    "test": "karma start",
+    "build": "webpack --config webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/GoodEvent/heeAnimation.git"
+  },
+  "keywords": [
+    "animation"
+  ],
+  "author": "GoodEvent",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/GoodEvent/heeAnimation/issues"
+  },
+  "homepage": "https://github.com/GoodEvent/heeAnimation#readme",
+  "dependencies": {
+    "@types/jasmine": "^3.6.0",
+    "rxjs": "^6.6.3"
+  },
+  "devDependencies": {
+    "clean-webpack-plugin": "^3.0.0",
+    "jasmine-core": "^3.6.0",
+    "karma": "^5.2.3",
+    "karma-chrome-launcher": "^3.1.0",
+    "karma-jasmine": "^4.0.1",
+    "karma-typescript": "^5.2.0",
+    "ts-loader": "^8.0.7",
+    "typescript": "^4.0.5",
+    "webpack": "^5.3.2",
+    "webpack-cli": "^4.1.0"
+  }
+}

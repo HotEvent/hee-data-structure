@@ -1,0 +1,8 @@
+{
+    "compilerOptions": {
+        "declaration": true,
+        "outDir": "./dist",
+        "target": "ESNext"
+    },
+    "exclude": ["**/**.spec.ts","dist","webpack.config.js"],
+}
