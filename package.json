@@ -2,7 +2,7 @@
   "name": "hee-data-structure",
   "version": "0.0.1",
   "description": "",
-  "main": "dist/hee-animation.js",
+  "main": "dist/hee-data-structure.js",
   "typings": "dist/index.d.ts",
   "scripts": {
     "test": "karma start",
@@ -10,20 +10,19 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/GoodEvent/heeAnimation.git"
+    "url": "git+ssh://git@github.com/HotEvent/hee-data-structure.git"
   },
   "keywords": [
     "animation"
   ],
-  "author": "GoodEvent",
+  "author": "HotEvent",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/GoodEvent/heeAnimation/issues"
+    "url": "https://github.com/HotEvent/hee-data-structure/issues"
   },
-  "homepage": "https://github.com/GoodEvent/heeAnimation#readme",
+  "homepage": "https://github.com/HotEvent/hee-data-structure#readme",
   "dependencies": {
-    "@types/jasmine": "^3.6.0",
-    "rxjs": "^6.6.3"
+    "@types/jasmine": "^3.6.0"
   },
   "devDependencies": {
     "clean-webpack-plugin": "^3.0.0",
