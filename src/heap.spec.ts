@@ -29,6 +29,11 @@ describe("Test Heap", () => {
         const removed = heap.remove();
         expect(removed).toEqual(svip);
         expect(heap.peek()).toEqual(vip);
+        const newVip = new Person('svip');
+        const newNormal = new Person('normal');
+        heap.insert(newVip);
+        heap.insert(newNormal);
+        expect(heap.peek()).toEqual(newVip);
     });
 
 });
